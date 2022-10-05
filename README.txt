@@ -1,3 +1,6 @@
+Team Members:
+Sam Spencer
+
 Company Name: ProFound 
 Product Name: ProFound Shopping Tool 
 Product Description: Need to buy a product but don't know where to look? We'll help you. 
