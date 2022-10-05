@@ -1,6 +1,11 @@
 Team Members:
 Sam Spencer
+<<<<<<< HEAD
 Artur Migulea 300296280
+=======
+Artur Migulea
+Océane Leung-Pah-Hang
+>>>>>>> d39e469820afae3d73aa9aaa09a8791f3ed3646b
 
 Company Name: ProFound 
 Product Name: ProFound Shopping Tool 
