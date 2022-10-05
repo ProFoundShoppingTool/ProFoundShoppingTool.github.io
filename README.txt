@@ -1,5 +1,10 @@
 Team Members:
-Sam Spencer
+Leung-Pah-Hang, Océane: ocelph
+Migulea, Artur: ArturMigulea
+Pandit, Aryan: apand046
+Spencer, Sam: sspen094
+Utpal, Upama: UpamaU
+
 
 Company Name: ProFound 
 Product Name: ProFound Shopping Tool 
