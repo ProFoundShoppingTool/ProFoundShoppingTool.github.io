@@ -1,5 +1,6 @@
 Team Members:
 Sam Spencer
+Artur Migulea
 
 Company Name: ProFound 
 Product Name: ProFound Shopping Tool 
