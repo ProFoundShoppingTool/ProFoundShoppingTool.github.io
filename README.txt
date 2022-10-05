@@ -1,10 +1,7 @@
 Team Members:
-Leung-Pah-Hang, Océane: ocelph
-Migulea, Artur: ArturMigulea
-Pandit, Aryan: apand046
-Spencer, Sam: sspen094
-Utpal, Upama: UpamaU
-
+Sam Spencer
+Artur Migulea 300296280
+Océane Leung-Pah-Hang
 
 Company Name: ProFound 
 Product Name: ProFound Shopping Tool 
