@@ -1,6 +1,6 @@
 Team Members:
 Sam Spencer
-Artur Migulea
+Artur Migulea 300296280
 
 Company Name: ProFound 
 Product Name: ProFound Shopping Tool 
