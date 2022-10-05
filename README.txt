@@ -1,6 +1,7 @@
 Team Members:
 Sam Spencer
 Artur Migulea
+Océane Leung-Pah-Hang
 
 Company Name: ProFound 
 Product Name: ProFound Shopping Tool 
