@@ -1,5 +1,62 @@
 <html>
+    <head>
+         <style>
+            .storesMap {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                background-color: lightgrey;
+                border: 1px solid gray;
+                width: 50%;
+                padding: 8px;
+                text-align: center;
+            }
+
+            .itemLocationMap {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                background-color: white;
+                border: 1px solid gray;
+                width: 50%;
+                height: 300px;
+            }
+ 
+        </style>
+    </head>
     <body>
         <h1>Features</h1>
+        <p>Find nearby stores that currently have the product that you are looking for in stock</p>
+        <div class="storesMap">
+            Give a google maps example
+        </div>
+        <p>Then once the user selects a shop, a map of the shop inside will show up and show 
+            which route to take to reach thier desired product</p>
+        <div class="itemLocationMap">
+            <svg width=auto height=auto>
+                <rect x="0" y="0" width=80% height="30" style="fill:lightgray" />
+                <rect x=90% y="0" width=10% height="30" style="fill:lightgray" />
+
+                <rect x="0" y="60" width=80% height="30" style="fill:lightgray" />
+                <rect x=90% y="60" width=10% height="30" style="fill:lightgray" />
+                
+                <rect x="0" y="120" width=80% height="30" style="fill:lightgray" />
+                <rect x=90% y="120" width=10% height="30" style="fill:lightgray" />
+                
+                <rect x="0" y="180" width=10% height="30" style="fill:lightgray" />
+                <rect x=20% y="180" width=80% height="30" style="fill:lightgray" />
+                
+                <rect x="0" y="240" width=10% height="30" style="fill:lightgray" />
+                <rect x=20% y="240" width=80% height="30" style="fill:lightgray" />
+
+                <circle cx="40%" cy="15" r="10" stroke="black" stroke-width="3" fill="yellow" />
+
+                <rect x="13%" y="155" width=5% height="140" style="fill:blue" />
+                <rect x="13%" y="155" width=75% height="20" style="fill:blue" />
+                <rect x="83%" y="40" width=5% height="130" style="fill:blue" />
+                <rect x="37%" y="35" width=51% height="20" style="fill:blue" />
+
+            </svg>
+        </div>
     </body>
 </html>
