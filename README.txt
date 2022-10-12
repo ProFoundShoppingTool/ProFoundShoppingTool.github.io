@@ -1,4 +1,11 @@
 Aryan Pandit
+Team Members:
+Sam Spencer
+Artur Migulea 300296280
+Océane Leung-Pah-Hang
+Aryan Pandit
+Upama Utpal
+
 Company Name: ProFound 
 Product Name: ProFound Shopping Tool 
 Product Description: Need to buy a product but don't know where to look? We'll help you. 
