@@ -1,7 +1,7 @@
 Aryan Pandit
 Team Members:
 Sam Spencer
-Artur Migulea 300296280
+Artur Migulea
 Océane Leung-Pah-Hang
 Aryan Pandit
 Upama Utpal
