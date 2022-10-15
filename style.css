@@ -12,27 +12,31 @@ body, html {
 
 }
 .navbar {
-    width: 85%;
+    width: 100%;
     margin: auto;
-    padding: 35px 0;
+    padding: 15px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #0171A3;
 }
 .logo {
-    width: 180px;
+    width: 250px;
     cursor: pointer;
+    transform: translateX(50px);
 }
 .navbar ul li {
     list-style: none;
     display: inline-block;
     margin: 0 20px;
+    transform: translateX(-50px);
     position: relative;
 }
 .navbar ul li a {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
     color: #fff;
+    font-size: 18px;
 }
 .navbar ul li::after {
     content: '';
@@ -46,4 +50,41 @@ body, html {
 }
 .navbar ul li:hover:after {
     width: 110%;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.content h1{
+    font-size: 70px;
+    margin-top: 80px;
+}
+.content p {
+    font-size: 20px;
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+button {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    background: #fff;
+    color: #0171A3;
+    cursor: pointer;
+    transition: 00.25s;
+
+}
+button:hover {
+    background-color: #0171A3;
+    color: #fff;
 }
