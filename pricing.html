@@ -1,57 +1,165 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        .title {
+            text-align: center; 
+            color:#0171A3; 
+            font-family: 'Noto Sans Ethiopic', sans-serif;
+            font-weight: 700; 
+            font-size: 38px;}
+        
+        #subtitle {
+            text-align: center; 
+            color: rgba(0, 0, 0, 0.6); 
+            font-family: 'Noto Sans Ethiopic', sans-serif;
+            font-weight: 200;
+            font-size: 24px}
+
+        h3 {
+            text-align: center;
+            font-family: 'Noto Serif Telugu', serif;
+            color: rgba(0, 0, 0, 0.8);
+            font-weight: 500;
+            font-size: 26px;}
+
+        h4 {
+            text-align: center;
+            font-family: 'Noto Serif Telugu', serif;
+            color: rgba(0, 0, 0, 0.9);}
+
+        .box-wrapper {
+            display: flex;
+            flex-direction: row
+            align-items: center;
+            justify-content: space-evenly;
+            padding: 10px;}
+
+        .free, .month, .year{
+            background-color: rgba(235,225,212, 0.4);
+            color: rgba(0, 0, 0, 0.6)
+            opacity: 0.5;
+            width: 320px;
+            height: auto;
+            padding: 20px;}
+        
+        .mybutton{
+            text-align: center;}
+            
+        ul {
+            list-style: none;
+            line-height: 2.0;}
+
+        ul li:before {
+            content: '✔';
+            color:#0171A3;}
+
+        body {
+        background-image: url('map.jpg');;
+        background-repeat: no-repeat;
+        background-attachment: fixed; 
+        background-size: cover;}
+
+        button {
+        font-family: 'Noto Sans Ethiopic', sans-serif;
+        color: #0171A3;
+        width: 150px;
+        padding: 15px 0;
+        text-align: center;
+        margin: 20px 10px;
+        border-radius: 25px;
+        border-color: #fff;
+        font-weight: bold;
+        background: #fff;;
+        cursor: pointer;
+        transition: 00.25s;}
+
+        button:hover {
+        background-color: #0171A3;
+        color:#fff}
+
+    </style>
+</head>
+
 <body>
 	<div class="banner">
 		<div class="navbar">
 		  <a href="index.html">
 			<img src="images/logo.png" class="logo" />
 		  </a>
-		  <a href="features.html">Features</a>
-		  <a href="aboutus.html"> About Us</a>
-		  <a href="contact.html">Contact Us</a>
-		  <a href="pricing.html">Sign Up</a>
-		</div>
+          <ul>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="aboutus.html"> About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="pricing.html">Sign Up</a></li>
+          </ul>
+        </div>
 	</div>
 
-<h1>Get Started</h1>
+<h1 class = "title" >Get Started</h1>
 
-<p>Subscribe to our monthly or yearly plan or go free for 14 days!</p>
+<p  id = "subtitle" >Subscribe to our monthly or yearly plan or go free for 7 days!</p>
 
 
-
-<div>
-    <h3>Free Trial</h3>
-    <p>Find what you need within minutes </p>
-    <p>Compare Prices</p>
-    <p>Order What You Need From Home</p>
-    <h4>Go free for 7 days<h4>
-    <a href="https://ProFoundpricing.html">Sign-Up</a>
+<div class="box-wrapper">
+    <div class="free">
+        <div>
+        <h3>Free Trial</h3>
+        <ul> 
+            <li>  Find What You Need Within Minutes</li>
+            <li>  Compare Prices</li>
+            <li>  Order What You Need From Home</li>
+            <li>  24/7 Help Desk</li>
+        </ul>
+        <h4><b>Go free for 7 days</b></h4>
+        <div class = "mybutton"> 
+          <a href="https://ProFoundpricing.html">
+            <button class="button">Sign-Up</button>
+          </a>
+        </div>
+        </div>
+    </div>
+    
+    <div class="month">
+        <div>
+        <h3>Monthly</h3>
+          <ul>
+            <li>  Find What You Need Within Minutes</li>
+            <li>  Compare Prices</li>
+            <li>  Order What You Need From Home</li>
+            <li>  Free Shipping</li>
+            <li>  24/7 Help Desk</li>
+        </ul>
+        <h4><b>CA $9.49 /month</b></h4>
+        <div class = "mybutton"> 
+          <a href="https://ProFoundpricing.html">
+            <button class="button">Sign-Up</button>
+          </a>
+        </div>
+        </div>
+    </div>
+    
+    <div class="year">
+        <div>
+        <h3>Yearly</h3>
+        <ul>
+            <li>  Find What You Need Within Minutes</li>
+            <li>  Compare Prices</li>
+            <li>  Order What You Need From Home</li>
+            <li>  Free Shipping</li>
+            <li>  24/7 Help Desk</li>
+        </ul>
+        <h4><b>CA $99.49 /yearly</b><h4>
+        <div class = "mybutton"> 
+          <a href="https://ProFoundpricing.html">
+            <button class="button">Sign-Up</button>
+          </a>
+        </div>
+        </div>
+    </div>
 </div>
 
-<div>
-    <h3>Monthly</h3>
-    <p>Find What You Need Within Minutes</p>
-    <p>Compare Prices</p>
-    <p>Order What You Need From Home</p>
-    <p>Free Shipping</p>
-    <p>24/7 Help Desk</p>
-    <h4>CA $9.49 /month</h4>
-    <a href="https://ProFoundpricing.html">Sign-Up</a>
-</div>
-
-<div>
-    <h3>Yearly</h3>
-    <p>Find what you need within minutes</p>
-    <p>Compare Prices</p>
-    <p>Order what you need from home</p>
-    <p>Free Shipping</p>
-    <p>24/7 Help Desk</p>
-    <h4>CA $99.49 /yearly<h4>
-    <a href="https://ProFoundpricing.html">Sign-Up</a>
-</div>
 
 </body>
 </html>
-
-
-  
