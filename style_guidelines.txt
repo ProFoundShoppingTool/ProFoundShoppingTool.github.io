@@ -1,0 +1,24 @@
+Overall Style:
+Simplistic with its colours and modern looking. Flat: no gradients, shadows, lighting effects
+
+Colour Theme: 
+#0171A3 - Dark Blue - Header and Button Text/Fill
+#ffffff - White - Text
+#67c4f0 - Light Blue - Page Link Underline
+#EBE1D4 - Creme - Box backgrounds
+
+Typography:
+Color - When on Header or dark backgrounds - White
+      - When on creme Black
+      - When on the butttons is dark blue no hover, white hover
+Font - Noto Sans Ethiopic - Most text
+     - Noto Sans Telugu - to seperate some text
+
+Buttons:
+- Flat, rounded, white border
+- Before Hover - White fill, Dark Blue Text
+- After Hover - Blue fill, white text and border
+
+Background: 
+- Image of city with pins 
+- Dark opacity overlay to make it pushed into the back and easier to read
