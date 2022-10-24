@@ -34,7 +34,7 @@ body, html {
     position: relative;
 }
 .navbar ul li a {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Noto Sans Ethiopic', sans-serif;
     text-decoration: none;
     color: #fff;
     font-size: 18px;
@@ -59,7 +59,7 @@ body, html {
     transform: translateY(-50%);
     text-align: center;
     color: #fff;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Noto Sans Ethiopic', sans-serif;
 }
 .content h1{
     font-size: 70px;
@@ -93,5 +93,5 @@ button:hover {
 }
 
 #homevid {
-    margin-top: 20px;
+    margin-top: 40px;
 }
