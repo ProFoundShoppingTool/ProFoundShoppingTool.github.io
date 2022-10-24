@@ -63,7 +63,7 @@ body, html {
 }
 .content h1{
     font-size: 70px;
-    margin-top: 80px;
+    margin-top: 20px;
 }
 .content p {
     font-size: 20px;
@@ -72,20 +72,26 @@ body, html {
     line-height: 25px;
 }
 button {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    width: 200px;
+    font-family: 'Noto Sans Ethiopic', sans-serif;
+    color: #0171A3;
+    width: 150px;
     padding: 15px 0;
     text-align: center;
     margin: 20px 10px;
-    border-radius: 10px;
+    border-radius: 25px;
+    border-color: #ffffff;
     font-weight: bold;
-    background: #fff;
-    color: #0171A3;
+    font-size: 15px;
+    background: #ffffff;
     cursor: pointer;
-    transition: 00.25s;
+    transition: 00.25s;;
 
 }
 button:hover {
     background-color: #0171A3;
     color: #fff;
+}
+
+#homevid {
+    margin-top: 20px;
 }
