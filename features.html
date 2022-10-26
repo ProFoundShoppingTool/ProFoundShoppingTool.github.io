@@ -1,6 +1,38 @@
 <html>
     <head>
+        <link rel="stylesheet" href="style.css" />
+    <head>
+    
+    <head>
          <style>
+            body {
+            font-family:  Georgia, 'Times New Roman', Times, serif;
+            }
+            .header {
+            text-align: center; 
+            color:rgba(255, 255, 255, 0.85);; 
+            font-family: 'Noto Sans Ethiopic', sans-serif;
+            font-weight: 500; 
+            font-size: 30px;
+            }
+            .paragraph {
+            color:rgba(255, 255, 255, 0.85);; 
+            font-family: 'Noto Sans Ethiopic', sans-serif;
+            font-weight: 500; 
+            text-align: center;
+            font-size: 25px;
+            }
+            .banner {
+                width: 100%;
+                height: 100vh;
+                background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(images/map.jpg);
+                height: 100%;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;  
+                background-attachment: fixed;
+            }
+
             .storesMap {
                 display: block;
                 background-color: lightgrey;
@@ -17,7 +49,6 @@
                 border: 1px solid gray;
                 width: 315;
                 height: 400px;
-                padding: 8px;
                 text-align: center;
             }
 
@@ -32,70 +63,185 @@
             }
 
             .floatContainer {
-                border: 1px solid white;
+                border: 1px solid transparent;
             } 
 
             .float-child1 {
+                margin-left: 50px;
+                margin-bottom: auto;
                 float: left;
             } 
 
             .float-child2 {
-                margin-left: 65%;
+                margin-left: auto;
             }   
 
+            .grid-container {
+                display: grid;
+                gap: 20px;
+                padding: 30px;
+            }
+
+            .item1 {
+                grid-column-start: 1;
+                grid-column-end: 3;
+                grid-row-start: 1;
+                grid-row-end: 2;
+            }            
+            
+            .item2 {
+                grid-column-start: 3;
+                grid-column-end: 5;
+                grid-row-start: 1;
+                grid-row-end: 2;
+            }
+
+            .item3 {
+                grid-column-start: 1;
+                grid-column-end: 3;
+                grid-row-start: 2;
+                grid-row-end: 3;
+            }
+
+            .item4 {
+                grid-column-start: 4;
+                grid-column-end: 5;
+                grid-row-start: 2;
+                grid-row-end: 3;
+            }
         </style>
     </head>
     <body>
-        <h1>Features</h1>
-
-        <div class="floatContainer">
-            <div class="float-child1">
-                <p>Find nearby stores that currently have the product that you are looking for in stock.</p>
+        <div class="banner">
+            <div class="navbar">
+              <a href="index.html">
+                <img src="images/logo.png" class="logo" />
+              </a>
+              <ul>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="aboutus.html"> About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="pricing.html">Sign Up</a></li>
+              </ul>
             </div>
 
-            <div class="float-child2">
-                <p>It will also show the prices of all the stores</p>
+            <div class="header">
+                <h1>Features</h1>
             </div>
 
-            <div class="float-child1">
-                <div class="storesMap">
-                    Show a google maps example with multiple places
+<!--
+            <div class="floatContainer">
+                <div class="float-child1">
+                    <div class="paragraph">
+                        <p>Find nearby stores that currently have the product </p>
+                        <p>that you are looking for in stock.</p>
+                    </div>
+                </div>
+
+                <div class="float-child2">
+                    <div class="paragraph">
+                        <p>It will also show the prices of all the stores</p>
+                    </div>
+                </div>
+
+                <div class="float-child1">
+                    <div class="storesMap">
+                        Show a google maps example with multiple places
+                    </div>
+                    <div class="float-child2">                    
+                        <div class="itemDisplay">
+                            Show multiple items in cells with different prices
+                        </div>
+                    </div>
+                </div>
+
+                <div class="paragraph">
+                    <p>Then once the user selects a shop, a map of the shop inside will show up and show 
+                    which route to take to reach thier desired product</p>
+                </div>
+                <div class="itemLocationMap">
+                    <svg width=auto height=auto>
+                        <rect x="0" y="0" width=80% height="30" style="fill:lightgray" />
+                        <rect x=90% y="0" width=10% height="30" style="fill:lightgray" />
+
+                        <rect x="0" y="60" width=80% height="30" style="fill:lightgray" />
+                        <rect x=90% y="60" width=10% height="30" style="fill:lightgray" />
+                        
+                        <rect x="0" y="120" width=80% height="30" style="fill:lightgray" />
+                        <rect x=90% y="120" width=10% height="30" style="fill:lightgray" />
+                        
+                        <rect x="0" y="180" width=10% height="30" style="fill:lightgray" />
+                        <rect x=20% y="180" width=80% height="30" style="fill:lightgray" />
+                        
+                        <rect x="0" y="240" width=10% height="30" style="fill:lightgray" />
+                        <rect x=20% y="240" width=80% height="30" style="fill:lightgray" />
+
+                        <circle cx="40%" cy="15" r="10" stroke="black" stroke-width="3" fill="yellow" />
+
+                        <rect x="13%" y="155" width=5% height="140" style="fill:blue" />
+                        <rect x="13%" y="155" width=75% height="20" style="fill:blue" />
+                        <rect x="83%" y="40" width=5% height="130" style="fill:blue" />
+                        <rect x="37%" y="35" width=51% height="20" style="fill:blue" />
+                    </svg>
                 </div>
             </div>
+-->
+            <div class="grid-container">
+                <div class="item1">
+                    <div class="paragraph">
+                        <p>Find nearby stores that currently have the product </p>
+                        <p>that you are looking for in stock.</p>
+                    </div>
+                </div>
 
-            <div class="float-child2">
-                <div class="itemDisplay">
-                    Show multiple items in cells with different prices
+                <div class="item2">
+                    <div class="paragraph">
+                        <p>It will also show the prices of all the stores</p>
+                    </div>
+                </div>
+
+                <div class="item3">
+                    <div class="storesMap">
+                        Show a google maps example with multiple places
+                    </div>
+                </div>
+
+                <div class="item4">                    
+                    <div class="itemDisplay">
+                        Show multiple items in cells with different prices
+
+                </div>
+
+                <div class="paragraph">
+                    <p>Then once the user selects a shop, a map of the shop inside will show up and show 
+                    which route to take to reach thier desired product</p>
+                </div>
+                <div class="itemLocationMap">
+                    <svg width=auto height=auto>
+                        <rect x="0" y="0" width=80% height="30" style="fill:lightgray" />
+                        <rect x=90% y="0" width=10% height="30" style="fill:lightgray" />
+
+                        <rect x="0" y="60" width=80% height="30" style="fill:lightgray" />
+                        <rect x=90% y="60" width=10% height="30" style="fill:lightgray" />
+                        
+                        <rect x="0" y="120" width=80% height="30" style="fill:lightgray" />
+                        <rect x=90% y="120" width=10% height="30" style="fill:lightgray" />
+                        
+                        <rect x="0" y="180" width=10% height="30" style="fill:lightgray" />
+                        <rect x=20% y="180" width=80% height="30" style="fill:lightgray" />
+                        
+                        <rect x="0" y="240" width=10% height="30" style="fill:lightgray" />
+                        <rect x=20% y="240" width=80% height="30" style="fill:lightgray" />
+
+                        <circle cx="40%" cy="15" r="10" stroke="black" stroke-width="3" fill="yellow" />
+
+                        <rect x="13%" y="155" width=5% height="140" style="fill:blue" />
+                        <rect x="13%" y="155" width=75% height="20" style="fill:blue" />
+                        <rect x="83%" y="40" width=5% height="130" style="fill:blue" />
+                        <rect x="37%" y="35" width=51% height="20" style="fill:blue" />
+                    </svg>
                 </div>
             </div>
-        </div>
-
-        <p>Then once the user selects a shop, a map of the shop inside will show up and show 
-            which route to take to reach thier desired product</p>
-        <div class="itemLocationMap">
-            <svg width=auto height=auto>
-                <rect x="0" y="0" width=80% height="30" style="fill:lightgray" />
-                <rect x=90% y="0" width=10% height="30" style="fill:lightgray" />
-
-                <rect x="0" y="60" width=80% height="30" style="fill:lightgray" />
-                <rect x=90% y="60" width=10% height="30" style="fill:lightgray" />
-                
-                <rect x="0" y="120" width=80% height="30" style="fill:lightgray" />
-                <rect x=90% y="120" width=10% height="30" style="fill:lightgray" />
-                
-                <rect x="0" y="180" width=10% height="30" style="fill:lightgray" />
-                <rect x=20% y="180" width=80% height="30" style="fill:lightgray" />
-                
-                <rect x="0" y="240" width=10% height="30" style="fill:lightgray" />
-                <rect x=20% y="240" width=80% height="30" style="fill:lightgray" />
-
-                <circle cx="40%" cy="15" r="10" stroke="black" stroke-width="3" fill="yellow" />
-
-                <rect x="13%" y="155" width=5% height="140" style="fill:blue" />
-                <rect x="13%" y="155" width=75% height="20" style="fill:blue" />
-                <rect x="83%" y="40" width=5% height="130" style="fill:blue" />
-                <rect x="37%" y="35" width=51% height="20" style="fill:blue" />
-            </svg>
         </div>
     </body>
 </html>
