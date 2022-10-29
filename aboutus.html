@@ -16,6 +16,8 @@ body {
 }
 
 .column {
+  box-sizing: border-box;
+  border: 20px transparent;
   background-color: rgba(235,225,212, 0.8);
   color: rgba(0, 0, 0, 0.6);
   font-family: 'Noto Serif Telugu', sans-serif;
@@ -30,16 +32,11 @@ body {
 
 .row:after {
   content: "";
-  display: inline-block;
-  width: 100%;
+  display: table;
+  clear: both;
 }
 
-.box{
-  border: 20px solid transparent;
-  width: 20px;
-  height: 20px;
-  margin: 0 auto;
-}
+
 img {
     object-fit: cover;
 }
@@ -70,8 +67,7 @@ img {
 </div>
 
 <div class="row">
-  <div class="column">
-    <div class= "box"> </div>Upama Utpal 
+  <div class="column">Upama Utpal 
   <br>
   <br> 
     <img src='images/UpamaPortrait.jpg' width="175" height="175">
