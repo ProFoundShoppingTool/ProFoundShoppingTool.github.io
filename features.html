@@ -9,11 +9,11 @@
             font-family:  Georgia, 'Times New Roman', Times, serif;
             }
             .header {
-            text-align: center; 
-            color:rgba(255, 255, 255, 0.85); 
-            font-family: 'Noto Sans Ethiopic', sans-serif;
-            font-weight: 500; 
-            font-size: 30px;
+                text-align: center; 
+                color:rgba(255, 255, 255, 0.85);
+                font-family: 'Noto Sans Ethiopic', sans-serif;
+                font-weight: 100; 
+                font-size: 25px;
             }
             .paragraph {
             color:rgba(255, 255, 255, 0.85);
@@ -24,7 +24,7 @@
             }
             .banner {
                 width: 100%;
-                height: 200%;
+                height: 210%;
                 background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(images/map.jpg);
                 background-size: cover;
                 background-position: center;
@@ -34,9 +34,7 @@
 
             .storesMap {
                 display: block;
-                background-color: rgba(235,225,212, 0.8);
-                border: 1px solid gray;
-                margin-left: 80px;
+                margin-left: 3%;
                 width: 600px;
                 height: 450px;
                 padding: 8px;
@@ -47,7 +45,7 @@
                 display: block;
                 background-color: rgba(235,225,212, 0.8);
                 border: 1px solid gray;
-                margin-left: 70px;
+                margin-left: 15%;
                 width: 400;
                 height: 450px;
                 text-align: center;
@@ -57,13 +55,12 @@
                 display: block;
                 margin-left: auto;
                 margin-right: auto;
-                background-color: white;
-                border: 1px solid gray;
-                width: 25%;
+                width: 60%;
                 height: 300px;
             }
 
             .grid-container {
+                text-align: center;
                 display: grid;
                 gap: 20px;
                 padding: 30px;
@@ -84,6 +81,7 @@
             }
 
             .item3 {
+                text-align: center;
                 grid-column-start: 1;
                 grid-column-end: 3;
                 grid-row-start: 2;
@@ -127,51 +125,28 @@
 
                 <div class="item2">
                     <div class="paragraph">
-                        <p>It will also show the prices of all the stores</p>
+                        <p>Compare prices of all stores to ensure <br> you get the best price</p>
                     </div>
                 </div>
 
                 <div class="item3">
                     <div class="storesMap">
-                        Show a google maps example with multiple places
+                        <img src="images/map-multiple-locations-500x333.jpg" class="storesMap">
                     </div>
                 </div>
 
                 <div class="item4">                    
                     <div class="itemDisplay">
-                        Show multiple items in cells with different prices
+                        <img src="images/price.jpg" width="100%" height="100%">
                     </div>
                 </div>
             </div>
 
             <div class="paragraph">
-                <p>Then once the user selects a shop, a map of the shop inside will show up and show 
-                which route to take to reach thier desired product</p>
+                <p>Find where in the store your product is with the interactive map</p>
             </div>
             <div class="itemLocationMap">
-                <svg width=auto height=auto>
-                    <rect x="0" y="0" width=80% height="30" style="fill:lightgray" />
-                    <rect x=90% y="0" width=10% height="30" style="fill:lightgray" />
-
-                    <rect x="0" y="60" width=80% height="30" style="fill:lightgray" />
-                    <rect x=90% y="60" width=10% height="30" style="fill:lightgray" />
-                    
-                    <rect x="0" y="120" width=80% height="30" style="fill:lightgray" />
-                    <rect x=90% y="120" width=10% height="30" style="fill:lightgray" />
-                    
-                    <rect x="0" y="180" width=10% height="30" style="fill:lightgray" />
-                    <rect x=20% y="180" width=80% height="30" style="fill:lightgray" />
-                    
-                    <rect x="0" y="240" width=10% height="30" style="fill:lightgray" />
-                    <rect x=20% y="240" width=80% height="30" style="fill:lightgray" />
-
-                    <circle cx="40%" cy="15" r="10" stroke="black" stroke-width="3" fill="yellow" />
-
-                    <rect x="13%" y="155" width=5% height="140" style="fill:blue" />
-                    <rect x="13%" y="155" width=75% height="20" style="fill:blue" />
-                    <rect x="83%" y="40" width=5% height="130" style="fill:blue" />
-                    <rect x="37%" y="35" width=51% height="20" style="fill:blue" />
-                </svg>
+                <img src="images/storemap.jpg" class="itemLocationMap">
             </div>
         </div>
     </body>
