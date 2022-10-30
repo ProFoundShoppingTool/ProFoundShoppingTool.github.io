@@ -5,8 +5,11 @@
 <style>
 
 body {
-  font-family:  Georgia, 'Times New Roman', Times, serif;
-}
+    text-align: center; 
+    font-family: 'Noto Sans Ethiopic', sans-serif;
+    font-weight: 150;
+    font-size: 16px;}
+
 .header {
   text-align: center; 
   color:rgba(255, 255, 255, 0.85); 
@@ -15,18 +18,26 @@ body {
   font-size: 40px;
 }
 
+.box {
+  width: 280px;
+  height: 350px;  
+  float: left;
+  justify-content: center;
+}
+
 .column {
+  margin-left: 30px;
   box-sizing: border-box;
-  border: 20px solid none;
   background-color: rgba(235,225,212, 0.8);
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.6)
+  opacity: 0.5;
   font-family: 'Noto Serif Telugu', sans-serif;
   text-align: center;
   font-weight: 320;
   font-size: 20px;
   float: left;
-  width: 20%;
-  height: 350px;
+  width: 260px;
+  height: 330px;
   padding: 20px;
 }
 
@@ -36,17 +47,18 @@ body {
   clear: both;
 }
 
+.row {
+  margin: auto;
+}
+
 
 img {
     object-fit: cover;
 }
 
-
-
-
-
 </style>
 </head>
+
 <body>
     <div class="banner">
       <div class="navbar">
@@ -62,52 +74,69 @@ img {
       </div>
 
 
-<div class="header">
-  <h2>Our Members</h2>
-</div>
+<br>
+<br>
+<div class="header">Our Members</div>
+<br>
+<br>
+<br>
 
 <div class="row">
-  <div class="column">Upama Utpal 
-  <br>
-  <br> 
-    <img src='images/UpamaPortrait.jpg' width="175" height="175">
-     <br> 
-  <p>Administrator</p>
+  <div class="box">
+    <div class="column">Upama Utpal 
+      <br>
+      <br> 
+        <img src='images/UpamaPortrait.jpg' width="175" height="175">
+        <br> 
+        <p>Administrator</p>
+    </div>
+  </div>
+  
+
+  <div class="box">
+    <div class="column">Sam Spencer
+      <br> 
+      <br>
+          <img src='images/SamPhoto.jpg' width="175" height="175">
+          <br>
+          <p>Design Specialist</p>
+    </div>
   </div>
 
-  <div class="column">Sam Spencer
-   <br> 
-   <br>
-    <img src='images/SamPhoto.jpg' width="175" height="175">
-    <br>
-  <p>Design Specialist</p>
+  
+  <div class="box">
+    <div class="column">Artur Migulea
+      <br>
+      <br>
+        <img src=https://cdn.pixabay.com/photo/2016/04/01/12/08/table-1300555_960_720.png  width="175" height="175">
+        <br>
+        <p>Features Specialist</p>
+    </div>
   </div>
-  <div class="column">Artur Migulea
-  <br>
-  <br>
-    <img src=https://cdn.pixabay.com/photo/2016/04/01/12/08/table-1300555_960_720.png  width="175" height="175">
-    <br>
-  <p>Features Specialist</p>
+  
+
+  <div class="box">
+    <div class="column">Océane Leung
+      <br>
+      <br>
+        <img src= 'images/OceanPortrait.JPG' width="175" height="175">
+        <br>
+        <p>Sales Manager</p>
+    </div>
   </div>
-  <div class="column">Océane Leung-Pah-Hang
-  <br>
-  <br>
-    <img src= 'images/OceanPortrait.JPG' width="175" height="175">
-    <br>
-  <p>Sales Manager</p>
-  </div>
-  <div class="column">Aryan Pandit
-  <br>
-  <br>
-    <img src='images/AryansPic.jpg'  width="175" height="175">
-    <br>
-  <p>Customer Service Manager</p>
-  </div>  
+
+  
+  <div class="box">
+    <div class="column">Aryan Pandit
+      <br>
+      <br>
+          <img src='images/AryansPic.jpg'  width="175" height="175">
+          <br>
+          <p>Customer Service Manager</p>
+    </div>  
   </div>
 </div>
 
-
-  <p></p>
 </div>
 
 </body>
