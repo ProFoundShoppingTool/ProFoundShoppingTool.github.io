@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <link rel="stylesheet" href="style.css" />
-<style>
-* {
-  box-sizing: border-box;
-}
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        text-align: center;
+        font-family: "Noto Sans Ethiopic", sans-serif;
+        font-weight: 150;
+        font-size: 16px;
+      }
 
-body {
-  font-family:  Georgia, 'Times New Roman', Times, serif;
-}
-.header {
-  text-align: center; 
-  color:rgba(255, 255, 255, 0.85);; 
-  font-family: 'Noto Sans Ethiopic', sans-serif;
-  font-weight: 500; 
-  font-size: 30px;
-}
+      .box {
+        width: 280px;
+        height: 350px;
+        float: left;
+        justify-content: center;
+      }
 
+<<<<<<< HEAD
 .column {
   background-color: rgba(235,225,212, 0.8);
   color: rgba(0, 0, 0, 0.6);
@@ -27,49 +27,84 @@ body {
   height: auto;
   padding: 20px;
 }
+=======
+      .column {
+        margin-left: 30px;
+        box-sizing: border-box;
+        background-color: rgba(235, 225, 212, 0.8);
+        color: rgba(0, 0, 0, 0.6);
+        font-family: "Noto Serif Telugu", sans-serif;
+        text-align: center;
+        font-weight: 320;
+        font-size: 20px;
+        float: left;
+        width: 260px;
+        height: 330px;
+        padding: 20px;
+      }
+>>>>>>> 1cff7ef017b1ae061873f759e017ad46c1daffaa
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
 
+      .row {
+        margin: auto;
+      }
 
-@media (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
-}
-</style>
-</head>
-<body>
+      img {
+        object-fit: cover;
+      }
+    </style>
+  </head>
+
+  <body>
     <div class="banner">
       <div class="navbar">
         <a href="index.html">
-        <img src="images/logo.png" class="logo" />
+          <img src="images/logo.png" class="logo" />
         </a>
-            <ul>
-              <li><a href="features.html">Features</a></li>
-              <li><a href="aboutus.html"> About Us</a></li>
-              <li><a href="contact.html">Contact Us</a></li>
-              <li><a href="pricing.html">Sign Up</a></li>
-            </ul>
+        <ul>
+          <li><a href="features.html">Features</a></li>
+          <li><a href="aboutus.html"> About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="pricing.html">Sign Up</a></li>
+        </ul>
       </div>
 
+      <br />
+      <br />
+      <div class="title">Our Members</div>
+      <br />
+      <br />
+      <br />
 
-<div class="header">
-  <h2>Our Members</h2>
-</div>
+      <div class="row">
+        <div class="box">
+          <div class="column">
+            Upama Utpal
+            <br />
+            <br />
+            <img src="images/UpamaPortrait.jpg" width="175" height="175" />
+            <br />
+            <p>Administrator</p>
+          </div>
+        </div>
 
-<div class="row">
-  <div class="column">Upama Utpal 
-  <br>
-  <br> 
-    <img src=https://cdn.pixabay.com/photo/2016/04/01/12/08/table-1300555_960_720.png  width="auto" height="100">
-     <br> 
-  <p>One of the members here at Profound.</p>
-  </div>
+        <div class="box">
+          <div class="column">
+            Sam Spencer
+            <br />
+            <br />
+            <img src="images/SamPhoto.jpg" width="175" height="175" />
+            <br />
+            <p>Design Specialist</p>
+          </div>
+        </div>
 
+<<<<<<< HEAD
   <div class="column">Sam Spencer
    <br> 
    <br>
@@ -100,11 +135,43 @@ body {
   </div>  
   </div>
 </div>
+=======
+        <div class="box">
+          <div class="column">
+            Artur Migulea
+            <br />
+            <br />
+            <img
+            src="images/Artur.jpg"
+            width="175" height="175">
+            <br />
+            <p>Features Specialist</p>
+          </div>
+        </div>
+>>>>>>> 1cff7ef017b1ae061873f759e017ad46c1daffaa
 
+        <div class="box">
+          <div class="column">
+            Océane Leung
+            <br />
+            <br />
+            <img src="images/OceanPortrait.JPG" width="175" height="175" />
+            <br />
+            <p>Sales Manager</p>
+          </div>
+        </div>
 
-  <p></p>
-</div>
-
-</body>
+        <div class="box">
+          <div class="column">
+            Aryan Pandit
+            <br />
+            <br />
+            <img src="images/AryansPic.jpg" width="175" height="175" />
+            <br />
+            <p>Customer Service Manager</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
-

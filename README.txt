@@ -1,4 +1,3 @@
-Aryan Pandit
 Team Members:
 Sam Spencer
 Artur Migulea
